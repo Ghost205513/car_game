@@ -12,6 +12,11 @@ def field():
         print()
 
 
+def addtrack(x, y, Matrix):
+    if not ((0 < x) and (x < 79) and (1 < y) and (y < 23)):
+        return
+    
+
 if __name__ == '__main__':
     field()
 
